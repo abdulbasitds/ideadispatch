@@ -102,7 +102,7 @@ p{
 	padding:175px 0;
 }
 .logo{
-	width:130px;
+	width:500;
 	margin:0 auto 35px;
 }
 .header h1{
@@ -451,13 +451,13 @@ img {
 	width:68px;
 	height:68px;
 	margin:0 auto;
-	border:2px solid #7cc576;
+	border:2px solid #;
 	border-radius:50%;
 	display:block;
 	line-height:68px;
 	text-align:center;
 	font-size:27px;
-	color:#7cc576;
+	color:#8c52ff;
 	cursor: pointer;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
@@ -762,7 +762,7 @@ border: 2px solid #fff;
 	text-align:center;
 }
 .copyright a{
-	color:#7cc576;
+	color:#8c52ff;
 	font-weight:600;
 	text-decoration: none;
 	transition:all 0.3s ease-in-out;
