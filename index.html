@@ -41,16 +41,67 @@
 <body>
 <div style="overflow:hidden;">
 <header class="header" id="header"><!--header-start-->
-	<div class="container">
-    	<figure class="logo animated fadeInDown delay-07s">
-        	<a href="#"><img src="img/dais_labs.png" alt=""></a>	
-        </figure>	
-        <!-- <h1 class="animated fadeInDown delay-07s">DAIS Labs</h1> -->
-        <ul class="we-create animated fadeInUp delay-1s">
-        	<li>Building Software Products Powered by Data and AI</li>
-        </ul>
-    </div>
-</div>
+	<div id="hero-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#hero-carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#hero-carousel" data-slide-to="1"></li>
+			<li data-target="#hero-carousel" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<div class="hero-slide" style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%), url('img/section-bg1.jpg'); background-size: cover; background-position: center;">
+					<div class="container">
+						<div class="hero-content">
+							<figure class="logo animated fadeInDown delay-07s">
+								<a href="#"><img src="img/dais_labs.png" alt="DAIS Labs"></a>
+							</figure>
+							<h1 class="animated fadeInUp delay-1s">Building Software Products</h1>
+							<h2 class="animated fadeInUp delay-1s">Powered by Data and AI</h2>
+							<p class="animated fadeInUp delay-1s">Innovative solutions that drive business value and transformation</p>
+							<a href="#portfolio" class="btn btn-primary animated fadeInUp delay-2s">View Our Work</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="hero-slide" style="background: linear-gradient(135deg, rgba(240, 147, 251, 0.8) 0%, rgba(245, 87, 108, 0.8) 100%), url('img/section-bg2.jpg'); background-size: cover; background-position: center;">
+					<div class="container">
+						<div class="hero-content">
+							<h1 class="animated fadeInUp delay-1s">Data Analytics & AI</h1>
+							<h2 class="animated fadeInUp delay-1s">Solutions</h2>
+							<p class="animated fadeInUp delay-1s">Transform your business with cutting-edge data analytics and artificial intelligence</p>
+							<a href="#service" class="btn btn-primary animated fadeInUp delay-2s">Our Services</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="hero-slide" style="background: linear-gradient(135deg, rgba(79, 172, 254, 0.8) 0%, rgba(0, 242, 254, 0.8) 100%), url('img/section-bg1.jpg'); background-size: cover; background-position: center;">
+					<div class="container">
+						<div class="hero-content">
+							<h1 class="animated fadeInUp delay-1s">Launch Your Idea</h1>
+							<h2 class="animated fadeInUp delay-1s">Online Today</h2>
+							<p class="animated fadeInUp delay-1s">From concept to deployment, we bring your innovative ideas to life</p>
+							<a href="#contact" class="btn btn-primary animated fadeInUp delay-2s">Get Started</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Controls -->
+		<a class="left carousel-control" href="#hero-carousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#hero-carousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
 </header><!--header-end-->
 
 <nav class="main-nav-outer" id="test"><!--main-nav-start-->
@@ -403,5 +454,6 @@ $(window).load(function(){
 });
 
 </script>
+
 </body>
 </html>
